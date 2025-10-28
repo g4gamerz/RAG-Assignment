@@ -466,20 +466,6 @@ The system works best with factual questions based on your documents:
 - **Lowest Score**: 75.0% (biodiversity question)
 - **All answers grounded** in retrieved documents
 
-## 🎯 Evaluation Criteria Coverage
-
-| Criteria | Score | Evidence |
-|----------|-------|----------|
-| Architecture & Code Quality | 15/15 | Modular design, clean code, type hints |
-| Ingestion & Indexing | 15/15 | Smart chunking (2000/400), rich metadata |
-| Retrieval & Grounding | 15/15 | Strong retrieval (0.532), no hallucination |
-| Prompting & Generation | 15/15 | Clear prompts, clean citations, quality answers |
-| Answer Quality | 14/15 | 79.5% confidence, 100% success rate |
-| Performance & Efficiency | 7/8 | Optimized, cost-aware, <2.5s voice latency |
-| Testing & Evaluation | 10/10 | Unit tests + automated RAGAS with PDF reports |
-| Documentation | 7/7 | Comprehensive README, code docs |
-| **Total** | **93/100** | **Grade: A (Excellent)** |
-
 ## 🛠️ Technology Stack
 
 - **Orchestration**: LangChain
