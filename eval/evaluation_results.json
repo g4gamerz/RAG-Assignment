@@ -1,0 +1,108 @@
+{
+  "metrics": {
+    "total_questions": 10,
+    "successful_answers": 10,
+    "failed_answers": 0,
+    "success_rate": 1.0,
+    "avg_confidence_score": 0.795,
+    "avg_retrieval_score": 0.532,
+    "avg_retrieved_docs": 6.0,
+    "avg_citations": 6.0,
+    "avg_answer_length_chars": 301.0,
+    "high_confidence_answers": 10,
+    "high_confidence_rate": 1.0
+  },
+  "results": [
+    {
+      "question": "What is climate change?",
+      "ground_truth": "Climate change refers to long-term shifts in global temperatures and weather patterns, primarily caused by human activities that increase greenhouse gas emissions.",
+      "answer": "Climate change refers to long-term shifts in global temperatures and weather patterns.",
+      "confidence_score": 0.799,
+      "retrieved_docs_count": 6,
+      "avg_retrieval_score": 0.537,
+      "citations_count": 6
+    },
+    {
+      "question": "What are renewable energy sources?",
+      "ground_truth": "Renewable energy sources include solar, wind, hydroelectric, geothermal, and biomass energy that can be naturally replenished and have minimal environmental impact.",
+      "answer": "Renewable energy comes from sources that are naturally replenished on a human timescale. These sources can provide power indefinitely with minimal environmental impact, unlike fossil fuels, which are finite.",
+      "confidence_score": 0.817,
+      "retrieved_docs_count": 6,
+      "avg_retrieval_score": 0.564,
+      "citations_count": 6
+    },
+    {
+      "question": "What is the greenhouse effect?",
+      "ground_truth": "The greenhouse effect is a natural process where certain gases in Earth's atmosphere trap heat from the sun, keeping the planet warm enough to sustain life.",
+      "answer": "The greenhouse effect is a natural process that warms Earth's surface. It occurs when the Sun's energy reaches Earth, with some reflected back to space and the rest absorbed by the land, oceans, and atmosphere. Greenhouse gases, such as carbon dioxide, methane, and water vapor, trap some of the heat that would otherwise escape to space, which keeps the planet warm enough to sustain life.",
+      "confidence_score": 0.772,
+      "retrieved_docs_count": 6,
+      "avg_retrieval_score": 0.495,
+      "citations_count": 6
+    },
+    {
+      "question": "What is biodiversity?",
+      "ground_truth": "Biodiversity refers to the variety of life on Earth, including the diversity of species, ecosystems, and genetic variations within species.",
+      "answer": "Biodiversity refers to the variety of life on Earth at all levels, from genes to ecosystems. It encompasses three main components: genetic diversity (variation within species), species diversity (variety of species), and ecosystem diversity (variety of habitats and ecological processes).",
+      "confidence_score": 0.75,
+      "retrieved_docs_count": 6,
+      "avg_retrieval_score": 0.461,
+      "citations_count": 6
+    },
+    {
+      "question": "What causes deforestation?",
+      "ground_truth": "Deforestation is primarily caused by agriculture expansion, logging, infrastructure development, and urbanization, leading to the permanent removal of forests.",
+      "answer": "The primary causes of deforestation include agricultural expansion, logging for timber and paper products, infrastructure development, urbanization, and mining. Agricultural expansion, particularly for large-scale commodity agriculture like cattle ranching, soy production, and palm oil plantations, is responsible for about 80% of global deforestation. Small-scale subsistence farming also contributes. Logging operations, both legal and illegal, remove trees, and infrastructure development, such as roads, dams, and mining operations, fragments forests and opens up new areas for exploitation.",
+      "confidence_score": 0.846,
+      "retrieved_docs_count": 6,
+      "avg_retrieval_score": 0.609,
+      "citations_count": 6
+    },
+    {
+      "question": "What is sustainable development?",
+      "ground_truth": "Sustainable development is development that meets present needs without compromising the ability of future generations to meet their own needs.",
+      "answer": "Sustainable development is a holistic approach to economic growth that meets the needs of the present without compromising the ability of future generations to meet their own needs. It balances three pillars: economic development, social inclusion, and environmental protection.",
+      "confidence_score": 0.779,
+      "retrieved_docs_count": 6,
+      "avg_retrieval_score": 0.507,
+      "citations_count": 6
+    },
+    {
+      "question": "What are fossil fuels?",
+      "ground_truth": "Fossil fuels are non-renewable energy sources formed from decomposed organic matter over millions of years, including coal, oil, and natural gas.",
+      "answer": "Fossil fuels are non-renewable energy sources that formed from the remains of ancient plants and animals over millions of years. The three main types are coal, oil (petroleum), and natural gas. These fuels contain high amounts of carbon and release significant greenhouse gases when burned.",
+      "confidence_score": 0.784,
+      "retrieved_docs_count": 6,
+      "avg_retrieval_score": 0.514,
+      "citations_count": 6
+    },
+    {
+      "question": "What is ocean acidification?",
+      "ground_truth": "Ocean acidification is the ongoing decrease in ocean pH caused by absorption of carbon dioxide from the atmosphere, affecting marine ecosystems.",
+      "answer": "Ocean acidification is the ongoing decrease in the pH of Earth's oceans, caused by the uptake of carbon dioxide from the atmosphere. As the ocean absorbs more CO2, chemical reactions occur that reduce seawater pH, making it more acidic.",
+      "confidence_score": 0.779,
+      "retrieved_docs_count": 6,
+      "avg_retrieval_score": 0.507,
+      "citations_count": 6
+    },
+    {
+      "question": "What is carbon footprint?",
+      "ground_truth": "Carbon footprint measures the total greenhouse gas emissions caused by an individual, organization, event, or product throughout its lifecycle.",
+      "answer": "A carbon footprint is a measure of the total greenhouse gas emissions caused directly and indirectly by an individual, organization, event, or product throughout its lifecycle. It is expressed as carbon dioxide equivalent (CO2e), which accounts for all greenhouse gases by converting them to the equivalent warming impact of CO2.",
+      "confidence_score": 0.863,
+      "retrieved_docs_count": 6,
+      "avg_retrieval_score": 0.636,
+      "citations_count": 6
+    },
+    {
+      "question": "What is conservation?",
+      "ground_truth": "Conservation is the protection and preservation of natural resources, ecosystems, and wildlife to maintain ecological balance and biodiversity.",
+      "answer": "Conservation refers to the protection, preservation, and careful management of natural resources, the environment, ecosystems, and biodiversity to ensure their long-term survival. It aims to maintain ecological balance, protect biodiversity, and ensure that natural resources are available for future generations.",
+      "confidence_score": 0.766,
+      "retrieved_docs_count": 6,
+      "avg_retrieval_score": 0.486,
+      "citations_count": 6
+    }
+  ],
+  "timestamp": "2025-10-28T22:19:39.563769"
+}

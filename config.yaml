@@ -1,0 +1,36 @@
+
+document_processing:
+  chunk_size: 2000  
+  chunk_overlap: 400  
+  separators: ["\n\n", "\n", ". ", " ", ""]
+  supported_formats: ["pdf", "html", "md", "txt"]
+
+embeddings:
+  model: "llama-text-embed-v2"
+  dimension: 768  
+
+pinecone:
+  index_name: "rag-knowledge-base"
+  metric: "cosine"
+  dimension: 768
+
+retrieval:
+  top_k: 6  
+  score_threshold: 0.22  
+  search_type: "similarity"
+
+generation:
+  model: "gemini-2.5-flash"  
+  temperature: 0.3  
+  max_tokens: 512  
+  top_p: 0.95
+
+evaluation:
+  metrics: ["faithfulness", "answer_relevancy", "context_precision", "context_recall"]
+  sample_size: 10
+
+voice:
+  stt:
+    api: "lemonfox" 
+    language: "english"
+  latency_target_ms: 2500 

@@ -1,0 +1,10 @@
+{"question": "What is climate change?", "ground_truth": "Climate change refers to long-term shifts in global temperatures and weather patterns, primarily caused by human activities that increase greenhouse gas emissions."}
+{"question": "What are renewable energy sources?", "ground_truth": "Renewable energy sources include solar, wind, hydroelectric, geothermal, and biomass energy that can be naturally replenished and have minimal environmental impact."}
+{"question": "What is the greenhouse effect?", "ground_truth": "The greenhouse effect is a natural process where certain gases in Earth's atmosphere trap heat from the sun, keeping the planet warm enough to sustain life."}
+{"question": "What is biodiversity?", "ground_truth": "Biodiversity refers to the variety of life on Earth, including the diversity of species, ecosystems, and genetic variations within species."}
+{"question": "What causes deforestation?", "ground_truth": "Deforestation is primarily caused by agriculture expansion, logging, infrastructure development, and urbanization, leading to the permanent removal of forests."}
+{"question": "What is sustainable development?", "ground_truth": "Sustainable development is development that meets present needs without compromising the ability of future generations to meet their own needs."}
+{"question": "What are fossil fuels?", "ground_truth": "Fossil fuels are non-renewable energy sources formed from decomposed organic matter over millions of years, including coal, oil, and natural gas."}
+{"question": "What is ocean acidification?", "ground_truth": "Ocean acidification is the ongoing decrease in ocean pH caused by absorption of carbon dioxide from the atmosphere, affecting marine ecosystems."}
+{"question": "What is carbon footprint?", "ground_truth": "Carbon footprint measures the total greenhouse gas emissions caused by an individual, organization, event, or product throughout its lifecycle."}
+{"question": "What is conservation?", "ground_truth": "Conservation is the protection and preservation of natural resources, ecosystems, and wildlife to maintain ecological balance and biodiversity."}

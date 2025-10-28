@@ -1,0 +1,43 @@
+# Core RAG Dependencies
+langchain>=1.0.0
+langchain-core>=1.0.0
+langchain-community>=0.4.0
+langchain-text-splitters>=1.0.0
+langchain-google-genai>=0.0.1
+pinecone>=7.0.0
+google-genai
+google-ai-generativelanguage>=0.4.0
+
+# API and UI
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+streamlit==1.30.0
+pydantic==2.5.3
+python-multipart==0.0.6
+
+# Document Processing
+pypdf==4.0.0
+beautifulsoup4==4.12.3
+markdown==3.5.2
+python-docx==1.1.0
+unstructured>=0.18.0
+
+# Evaluation
+ragas==0.1.1
+datasets==2.16.1
+reportlab>=4.0.0
+
+# Voice (LemonFox.ai API - No heavy dependencies!)
+audio-recorder-streamlit>=0.0.10
+requests>=2.27.0
+
+# Utilities
+python-dotenv==1.0.0
+pyyaml==6.0.1
+numpy==1.26.3
+pandas==2.1.4
+
+# Testing
+pytest==7.4.4
+pytest-asyncio==0.23.3
+httpx==0.26.0

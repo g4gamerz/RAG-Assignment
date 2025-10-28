@@ -1,0 +1,12 @@
+Creating index 'rag-knowledge-base'...
+Traceback (most recent call last):
+  File "C:\Users\Mian\Desktop\RAG Assignment\init_pinecone.py", line 54, in <module>
+    init_pinecone_index()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Mian\Desktop\RAG Assignment\init_pinecone.py", line 43, in init_pinecone_index
+    print(f"\u2713 Index '{index_name}' created successfully!")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mian\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2713' in position 0: character maps to <undefined>
