@@ -26,6 +26,26 @@ import time
 
 load_dotenv()
 
+def get_env(key, default=None):
+    """Get environment variable from st.secrets or os.environ."""
+    try:
+        if hasattr(st, 'secrets') and key in st.secrets.get("secrets", {}):
+            value = st.secrets["secrets"][key]
+            os.environ[key] = value
+            return value
+    except:
+        pass
+    return os.getenv(key, default)
+
+def init_secrets():
+    """Initialize environment variables from Streamlit secrets."""
+    try:
+        if hasattr(st, 'secrets') and 'secrets' in st.secrets:
+            for key, value in st.secrets["secrets"].items():
+                os.environ[key] = str(value)
+    except:
+        pass
+
 st.set_page_config(
     page_title="RAG Agent",
     page_icon="🤖",
@@ -132,7 +152,7 @@ st.markdown("""
 
 def get_pinecone_client():
     """Get Pinecone client."""
-    return Pinecone(api_key=os.getenv('PINECONE_API_KEY'))
+    return Pinecone(api_key=get_env('PINECONE_API_KEY'))
 
 def list_indexes():
     """List all available Pinecone indexes."""
@@ -259,8 +279,10 @@ def run_ingestion(uploaded_files, chunk_size, chunk_overlap, index_name):
 def main():
     """Main Streamlit application."""
 
+    init_secrets()
+
     if 'selected_index' not in st.session_state:
-        st.session_state.selected_index = os.getenv('PINECONE_INDEX_NAME', 'rag-knowledge-base')
+        st.session_state.selected_index = get_env('PINECONE_INDEX_NAME', 'rag-knowledge-base')
 
     if 'processing_audio' not in st.session_state:
         st.session_state.processing_audio = False
